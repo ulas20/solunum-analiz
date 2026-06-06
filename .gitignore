@@ -1,0 +1,15 @@
+# Python
+API/.venv/
+API/__pycache__/
+API/*.pyc
+API/.DS_Store
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcscheme
+DerivedData/
+.DS_Store
+
+# macOS
+**/.DS_Store

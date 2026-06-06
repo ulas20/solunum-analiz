@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: solunum-ai-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    envVars:
+      - key: TFHUB_CACHE_DIR
+        value: /app/.tfhub_modules
+    healthCheckPath: /health
+    autoDeploy: true
