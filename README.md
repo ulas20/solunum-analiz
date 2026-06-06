@@ -2,7 +2,7 @@
 
 **Yapay Zeka Destekli Solunum Hastalığı Tarama Uygulaması**
 
-Öksürük sesi analizi ile COVID-19, Astım ve KOAH risk taraması yapan iOS uygulaması + FastAPI backend.
+Öksürük sesi analizi ile Gribal Enfeksiyon, Astım ve KOAH risk taraması yapan iOS uygulaması + FastAPI backend.
 
 ---
 
