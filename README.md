@@ -151,4 +151,20 @@ open SolunumAI.xcodeproj
 
 ---
 
+## Ekran Görüntüleri
+
+| Ana Sayfa | Analiz - Kayıt | Analiz - Belirtiler |
+|:---------:|:--------------:|:-------------------:|
+| ![Ana Sayfa](screenshots/1-Ana%20Sayfa.jpg) | ![Kayıt](screenshots/2-Analiz%20Kay%C4%B1t.jpg) | ![Belirtiler](screenshots/3-Belirtiler.jpg) |
+
+| Sonuç - COVID Riski | Sonuç - Düşük Risk | Geçmiş |
+|:-------------------:|:------------------:|:------:|
+| ![Sonuç COVID](screenshots/4-Analiz%20Sonu%C3%A7.jpg) | ![Sonuç Düşük](screenshots/5-Analiz%20Sonu%C3%A7%202%20.jpg) | ![Geçmiş](screenshots/6-Ge%C3%A7mi%C5%9F.jpg) |
+
+| Egzersizler | Açılış Ekranı |
+|:-----------:|:-------------:|
+| ![Egzersizler](screenshots/7-Egzersizler.jpg) | ![Açılış](screenshots/A%C3%A7%C4%B1l%C4%B1%C5%9F%20Ekran%C4%B1%20Uyard%C4%B1%20Onay.jpg) |
+
+---
+
 > ⚠️ Bu uygulama tıbbi tanı koyamaz. Sonuçlar yalnızca bilgilendirme amaçlıdır. Kesin tanı için mutlaka bir sağlık profesyoneline başvurun.
