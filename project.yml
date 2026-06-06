@@ -1,0 +1,50 @@
+name: SolunumAI
+options:
+  bundleIdPrefix: com.solunumai
+  deploymentTarget:
+    iOS: "16.0"
+  defaultConfig: Debug
+  xcodeVersion: "15"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    ENABLE_PREVIEWS: YES
+
+targets:
+  SolunumAI:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: SolunumAI
+        excludes:
+          - "**/*.md"
+    resources:
+      - SolunumAI/Resources/Assets.xcassets
+      - SolunumAI/Resources/Info.plist
+      - "SolunumAI/Models/SolunumAI.xcdatamodeld"
+    info:
+      path: SolunumAI/Resources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.solunumai.app
+        DEVELOPMENT_TEAM: ""
+        INFOPLIST_FILE: SolunumAI/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+    dependencies:
+      - sdk: AVFoundation.framework
+      - sdk: CoreData.framework
+      - sdk: Charts.framework
+
+configs:
+  Debug:
+    postBuildScripts: []
+  Release:
+    postBuildScripts: []

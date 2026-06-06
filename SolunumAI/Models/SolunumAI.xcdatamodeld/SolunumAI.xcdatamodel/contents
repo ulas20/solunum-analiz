@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="NO" userDefinedModelVersionIdentifier="">
+    <entity name="AnalysisEntity" representedClassName="AnalysisEntity" syncable="YES">
+        <attribute name="id"             optional="NO"  attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="date"           optional="NO"  attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="p1"             optional="NO"  attributeType="Double"     defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="p2"             optional="NO"  attributeType="Double"     defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pFinal"         optional="NO"  attributeType="Double"     defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="airsPred"       optional="NO"  attributeType="Integer 16" defaultValueString="0"   usesScalarValueType="YES"/>
+        <attribute name="airsIsim"       optional="YES" attributeType="String"/>
+        <attribute name="karar"          optional="YES" attributeType="String"/>
+        <attribute name="altKarar"       optional="YES" attributeType="String"/>
+        <attribute name="oneri"          optional="YES" attributeType="String"/>
+        <attribute name="yas"            optional="NO"  attributeType="Integer 16" defaultValueString="0"   usesScalarValueType="YES"/>
+        <attribute name="cinsiyet"       optional="YES" attributeType="String"/>
+        <attribute name="ates"           optional="NO"  attributeType="Boolean"    usesScalarValueType="YES"/>
+        <attribute name="solunumSorunu"  optional="NO"  attributeType="Boolean"    usesScalarValueType="YES"/>
+        <attribute name="sigara"         optional="NO"  attributeType="Boolean"    usesScalarValueType="YES"/>
+    </entity>
+</model>
