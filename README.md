@@ -161,9 +161,9 @@ open SolunumAI.xcodeproj
 |:-------------------:|:------------------:|:------:|
 | ![Sonuç COVID](screenshots/4-Analiz%20Sonu%C3%A7.jpg) | ![Sonuç Düşük](screenshots/5-Analiz%20Sonu%C3%A7%202%20.jpg) | ![Geçmiş](screenshots/6-Ge%C3%A7mi%C5%9F.jpg) |
 
-| Egzersizler | Açılış Ekranı |
-|:-----------:|:-------------:|
-| ![Egzersizler](screenshots/7-Egzersizler.jpg) | ![Açılış](screenshots/A%C3%A7%C4%B1l%C4%B1%C5%9F%20Ekran%C4%B1%20Uyard%C4%B1%20Onay.jpg) |
+| Egzersizler | Uyarı Onay Ekranı |
+|:-----------:|:-----------------:|
+| ![Egzersizler](screenshots/7-Egzersizler.jpg) | ![Uyarı Onay](screenshots/8-Uyari%20Onay%20Ekrani.jpg) |
 
 ---
 
