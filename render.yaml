@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: solunum-analiz-api
+    runtime: docker
+    dockerfilePath: ./API/Dockerfile
+    dockerContext: ./API
+    plan: starter
+    envVars:
+      - key: TFHUB_CACHE_DIR
+        value: /app/.tfhub_modules
+    healthCheckPath: /health
+    autoDeploy: true
